@@ -90,7 +90,7 @@ const Login = () => {
                                     <button type='submit' className='login-btn '>LogIn</button>
                                 </div>
                             </form>
-                            <p>Dont Have An Account? Please <Link className='register-link' to='/register'>Register</Link></p>
+                            <p>Dont Have An Account?  Please <Link className='register-link' to='/register'>Register</Link></p>
                             <div className='mt-2'>
                                 <button onClick={handleGoogleLogin} className='icon-border px-3 py-2'> <img src={googleImg} className="google-icon" alt="" /> Continue with google</button>
                             </div>
