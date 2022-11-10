@@ -1,0 +1,41 @@
+.email,.password{
+    border: 1px solid #eaeaea;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    font-size: 18px;
+
+}
+.login-form{
+    border: 1px solid #eaeaea;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+    border-radius: 30px;
+}
+.login-btn{
+    background-color: #6047EC;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 2px;
+}
+.user-profile{
+    font-size: 50px;
+    color: #6047EC;
+}
+.google-icon{
+    height: 30px;
+    width: 30px;
+}
+.icon-border{
+    border: 1px solid #b1b0b0d7;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.register-link{
+    text-decoration: none;
+    color: #6047EC;
+    font-weight: bold;
+}

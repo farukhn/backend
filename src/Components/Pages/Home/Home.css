@@ -1,0 +1,40 @@
+.banner{
+    background-image: url(../../Assets/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+.banner-btn{
+    border: none;
+    padding: 10px 20px;
+    background-color: #FF3384;
+    border-radius: 5px;
+}
+
+.banner-btn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.banner-btn a:hover{
+    color: #d3d3d3;
+}
+
+.custom-bg{
+    background-color: #273746;
+}
+
+
+.about-icon{
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+.expert-icon{
+    font-size: 100px;
+    color: #6128EC;
+}

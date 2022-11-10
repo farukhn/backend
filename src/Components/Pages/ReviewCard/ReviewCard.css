@@ -1,0 +1,29 @@
+
+.review-img > img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.review-card{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+.product-name p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.user-review-text p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.user-review-text span{
+    color: #0055df;
+}
+.review-ratings{
+    color: goldenrod;
+}
+.trash-bin{
+    font-size: 20px;
+}
+.dlt-btn{
+    border: none;
+}
