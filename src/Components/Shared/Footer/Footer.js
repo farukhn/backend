@@ -22,7 +22,7 @@ const Footer = () => {
                             <input type="text" className='w-75 py-3 border-0' placeholder='write your email'  />
                             <button className='subscribe-btn'>Subscribe</button>
                         </div>
-                        <p className='text-center text-white my-2'>&#169;Copyright 2022 Md Fahim Muntasir Orin </p>
+                        <p className='text-center text-white my-2'>&#169;Copyright 2022 Md Fruk Hossain</p>
                     </div>
                 </div>
             </div>
