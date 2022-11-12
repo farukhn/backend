@@ -28,7 +28,7 @@ const Register = () => {
                 const user = {
                     email: res.user.email
                 }
-                fetch('http://localhost:5000/jwt', {
+                fetch('https://assignment-11-server-green-seven.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -51,7 +51,7 @@ const Register = () => {
                 const user = {
                     email: res.user.email
                 }
-                fetch('http://localhost:5000/jwt', {
+                fetch('https://assignment-11-server-green-seven.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -91,13 +91,13 @@ const Register = () => {
                                 <div>
                                     <input type="password" name='password' className='password w-100 mt-2 mb-2' placeholder='Your Password' />
                                 </div>
-                                <div className='py-2'>
+                                <div className='py-2 text-center'>
                                     <button type='submit' className='login-btn '>Sign Up</button>
                                 </div>
                             </form>
-                            <p>Are You Already Registered ? Please <Link className='register-link' to='/login'>Login</Link></p>
-                            <div className='mt-2'>
-                                <button className='icon-border px-3 py-2' onClick={handleGoogle} > <img src={googleImg} className="google-icon" alt="" />continue with google</button>
+                            <p className='text-center'>Are You Already Registered ? Please <Link className='register-link' to='/login'>Login</Link></p>
+                            <div className='mt-2 text-center'>
+                                <button className='icon-border px-3 py-2 ' onClick={handleGoogle} > <img src={googleImg} className="google-icon " alt="" />continue with google</button>
                             </div>
 
                         </div>

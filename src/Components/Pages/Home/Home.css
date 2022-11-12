@@ -8,7 +8,7 @@
 .banner-btn{
     border: none;
     padding: 10px 20px;
-    background-color: #FF3384;
+    background-color: #ee8235;
     border-radius: 5px;
 }
 
@@ -19,8 +19,9 @@
 
 }
 
-.banner-btn a:hover{
+.banner-btn:hover{
     color: #d3d3d3;
+    background-color: #ee8235;
 }
 
 .custom-bg{

@@ -23,7 +23,7 @@ const Login = () => {
                 const user = {
                     email: res.user.email
                 }
-                fetch('http://localhost:5000/jwt', {
+                fetch('https://assignment-11-server-green-seven.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -54,7 +54,7 @@ const Login = () => {
                 const user = {
                     email: res.user.email
                 }
-                fetch('http://localhost:5000/jwt', {
+                fetch('https://assignment-11-server-green-seven.vercel.app/jwt', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -86,12 +86,12 @@ const Login = () => {
                                 <div>
                                     <input type="password" name='password' className='password w-100 mt-2 mb-2' placeholder='Your Password' />
                                 </div>
-                                <div className='py-2'>
+                                <div className='py-2 text-center'>
                                     <button type='submit' className='login-btn '>LogIn</button>
                                 </div>
                             </form>
-                            <p>Dont Have An Account?  Please <Link className='register-link' to='/register'>Register</Link></p>
-                            <div className='mt-2'>
+                            <p className='text-center'>Dont Have An Account?  Please <Link className='register-link' to='/register'>Register</Link></p>
+                            <div className='mt-2 text-center'>
                                 <button onClick={handleGoogleLogin} className='icon-border px-3 py-2'> <img src={googleImg} className="google-icon" alt="" /> Continue with google</button>
                             </div>
 

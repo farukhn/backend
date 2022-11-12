@@ -13,7 +13,7 @@ const MyReviews = () => {
     const { user } = useContext(AuthenticationContext);
     const [myReviews, setMyReviews] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/myreviews?email=${user?.email}`, {
+        fetch(`https://assignment-11-server-green-seven.vercel.app/myreviews?email=${user?.email}`, {
             headers: {
                 authorization: `Bearer ${localStorage.getItem('token')}`
             }
@@ -24,7 +24,7 @@ const MyReviews = () => {
     // delete user
     const handleDelete = (id) => {
         console.log(id)
-        fetch(`http://localhost:5000/myreviews/${id}`, {
+        fetch(`https://assignment-11-server-green-seven.vercel.app/myreviews/${id}`, {
             method: 'DELETE',
         })
             .then(res => res.json())

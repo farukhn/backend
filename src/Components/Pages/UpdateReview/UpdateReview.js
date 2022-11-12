@@ -19,7 +19,7 @@ const UpdateReview = () => {
             message: message,
             rating: parseInt(rating)
         };
-        fetch(`http://localhost:5000/update/${_id}`, {
+        fetch(`https://assignment-11-server-green-seven.vercel.app/update/${_id}`, {
             method: 'PATCH',
             headers: {
                 'content-type': 'application/json'

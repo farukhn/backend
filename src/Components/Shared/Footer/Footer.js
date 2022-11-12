@@ -18,11 +18,11 @@ const Footer = () => {
                             <p className='footer-text text-center'><Link to='/addservice'>Add Service</Link></p>
                             <p className='footer-text text-center'><Link to='/myreviews'>My Reviews</Link></p>
                         </div>
-                        <div className="col-lg-4 d-flex">
-                            <input type="text" className='w-75 py-3 border-0' placeholder='write your email'  />
-                            <button className='subscribe-btn'>Subscribe</button>
+                        <div className="col-lg-4 d-flex ">
+                            <input type="text" className='w-75 text-center border  rounded-start' placeholder='write your email'  />
+                            <button className='subscribe-btn rounded-end'>Subscribe</button>
                         </div>
-                        <p className='text-center text-white my-2'>&#169;Copyright 2022 Md Fruk Hossain</p>
+                        <p className='text-center text-warning'>&#169;Copyright 2022 Md Fruk Hossain</p>
                     </div>
                 </div>
             </div>

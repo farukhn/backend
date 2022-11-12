@@ -11,7 +11,7 @@ const Header = () => {
     const { user, logOut } = useContext(AuthenticationContext)
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" >
                 <Container>
                     <div className='logo py-4 d-flex align-items-center'>
                         <Link to='/home'><img src={logo} alt="" /></Link>
@@ -19,7 +19,7 @@ const Header = () => {
                     </div>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mx-auto align-items-center justify-content-between" >
+                        <Nav className="mx-auto align-items-center justify-content-between " >
                             <div className='nav-container'>
                                 <p className='m-0'><Link to='/home'>Home</Link></p>
                                 <p className='m-0'><Link to='/services'>Services</Link></p>

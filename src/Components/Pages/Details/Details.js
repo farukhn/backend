@@ -20,7 +20,7 @@ const Details = () => {
     const [rating, setRating] = useState(0);
     console.log(rating)
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://assignment-11-server-green-seven.vercel.app/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
@@ -41,7 +41,7 @@ const Details = () => {
             rating: parseInt(rating)
         };
         console.log(review);
-        fetch('http://localhost:5000/review', {
+        fetch('https://assignment-11-server-green-seven.vercel.app/review', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

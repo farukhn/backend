@@ -20,7 +20,7 @@ const AddService = () => {
             details: details,
             ratings: parseInt(ratings)
         }
-        fetch('http://localhost:5000/services', {
+        fetch('https://assignment-11-server-green-seven.vercel.app/services', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
@@ -47,24 +47,24 @@ const AddService = () => {
                     <div className="col-lg-6">
                         <form onSubmit={handleAddService}>
                             <div className='my-2'>
-                                <label htmlFor="Product Image Link">Product Name</label>
-                                <input type="text" name='name' className='w-100 py-2' placeholder='Product Name' />
+                                <label htmlFor="Product Image Link"></label>
+                                <input type="text" name='name' className='w-100 py-2 text-center' placeholder='Product Name' />
                             </div>
                             <div className='my-2'>
-                                <label htmlFor="Product Image Link">Product Image Link</label>
-                                <input type="text" name='image' className='w-100 py-2' placeholder='Product Image Link' />
+                                <label htmlFor="Product Image Link"></label>
+                                <input type="text" name='image' className='w-100 py-2 text-center' placeholder='Product Image Link' />
+                            </div>
+                            <div className='my-2 '>
+                                <label htmlFor="Product Price"></label>
+                                <input type="number" name='price' className='w-100 py-2 text-center' placeholder='product price' />
                             </div>
                             <div className='my-2'>
-                                <label htmlFor="Product Price">Product Price</label>
-                                <input type="number" name='price' className='w-100 py-2' placeholder='product price' />
+                                <label htmlFor="Product Price"></label>
+                                <input type="text" name='details' className='w-100 py-2 text-center' placeholder='product details' />
                             </div>
                             <div className='my-2'>
-                                <label htmlFor="Product Price">Product Details</label>
-                                <input type="text" name='details' className='w-100 py-2' placeholder='product details' />
-                            </div>
-                            <div className='my-2'>
-                                <label htmlFor="Product Price">Product Ratings</label>
-                                <input type="number" name='ratings' className='w-100 py-2' placeholder='product ratings' />
+                                <label htmlFor="Product Price"></label>
+                                <input type="number" name='ratings' className='w-100 py-2 text-center' placeholder='product ratings' />
                             </div>
                             <button className='login-btn my-3' type="submit">Add Product</button>
                         </form>

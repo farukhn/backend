@@ -3,15 +3,17 @@
 }
 .subscribe-btn{
     border: none;
-    background-color: #6610F2;
+    background-color: #ee8235;
     color: #fff;
     padding: 10px;
     font-size: 20px;
+    
 
 }
 .footer-text a{
     text-decoration: none;
-    color: #fff;
+    color: #ee8235;
     font-size: 18px;
+    font-weight: 700;
     
 }

@@ -12,12 +12,19 @@
     border-radius: 30px;
 }
 .login-btn{
-    background-color: #6047EC;
+    background-color: #ee8235;
     color: #fff;
     font-size: 20px;
     border: none;
     padding: 10px 40px;
-    border-radius: 2px;
+    border-radius: 10px;
+    
+    
+    
+}
+.login-btn:hover{
+    background-color: #073688;
+    color: rgb(245, 237, 237);
 }
 .user-profile{
     font-size: 50px;
@@ -33,6 +40,11 @@
     padding: 5px;
     font-size: 18px;
     font-weight: bold;
+}
+.icon-border:hover{
+    border: 3px solid #f0cb80d7;
+    background-color: #073688;
+    color: rgb(245, 237, 237);
 }
 .register-link{
     text-decoration: none;
